@@ -714,6 +714,8 @@ The first (most recent) post in the list is styled to be bigger than the others 
     font-size: 2.2rem;
     line-height: 1.6em;
     background: #fff;
+
+    margin-right: 280px;
 }
 
 @media (max-width: 1170px) {
@@ -724,6 +726,7 @@ The first (most recent) post in the list is styled to be bigger than the others 
 @media (max-width: 800px) {
     .post-full-content {
         font-size: 1.9rem;
+        margin-right: auto;
     }
 }
 
@@ -1069,6 +1072,7 @@ Usage (In Ghost editor):
     }
     .post-full-content {
         padding: 0;
+        margin-right: auto;
     }
     .post-full-content:before,
     .post-full-content:after {
@@ -1127,6 +1131,47 @@ Usage (In Ghost editor):
     padding: 6px 12px;
     border: color(var(--whitegrey) l(-1%) s(-5%)) 1px solid;
 }
+
+.post-full-rhs-column {
+    position: absolute;
+    right: 0;
+
+    /** height of the shadow bars */
+    margin-top: 200px;
+    width: 260px;
+}
+
+
+@media (max-width: 1170px) {
+    .post-full-rhs-column {
+        margin-top: 140px;
+    }
+}
+
+@media (max-width: 800px) {
+    .post-full-rhs-column {
+        display: none;
+    }
+}
+
+.leadership-experience h2,
+.leadership-experience h3 {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.leadership-experience h3 {
+    color: var(--midgrey);
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.leadership-experience img {
+    border-radius: 5px;
+    padding: 10px 0;
+}
+
 
 
 /* 7.1. Subscribe Form
