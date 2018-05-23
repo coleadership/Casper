@@ -73,7 +73,7 @@ body {
 /* Centered content container blocks */
 .inner {
     margin: 0 auto;
-    max-width: 1040px;
+    max-width: 1280px;
     width: 100%;
 }
 
@@ -715,12 +715,12 @@ The first (most recent) post in the list is styled to be bigger than the others 
     line-height: 1.6em;
     background: #fff;
 
-    margin-right: 280px;
+    margin-right: 300px;
 }
 
 @media (max-width: 1170px) {
     .post-full-content {
-        padding: 5vw 7vw 0;
+        padding: 5vw 8vw 0;
     }
 }
 @media (max-width: 800px) {
