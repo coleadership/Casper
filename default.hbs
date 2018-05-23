@@ -76,6 +76,9 @@
     {{!-- The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in post.hbs, but it needs to be included down here, after jQuery has already loaded. --}}
     {{{block "scripts"}}}
 
+    <!-- sumome -->
+    <script async>(function(s,u,m,o,j,v){j=u.createElement(m);v=u.getElementsByTagName(m)[0];j.async=1;j.src=o;j.dataset.sumoSiteId='99a0f7235a2d89bb13704693694374dff1ef153477e447e4d97749a25c62606a';v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');</script>    
+
     {{!-- Ghost outputs important scripts and data with this tag - it should always be the very last thing before the closing body tag --}}
     {{ghost_foot}}
 

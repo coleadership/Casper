@@ -1154,24 +1154,58 @@ Usage (In Ghost editor):
     }
 }
 
-.leadership-experience h2,
-.leadership-experience h3 {
+.promo {
+    margin-top: 4em;
+}
+
+.promo.leadership-experience {
+    margin-top: 0;
+}
+
+.promo h2,
+.promo h3 {
     margin-top: 0;
     padding-top: 0;
 }
 
-.leadership-experience h3 {
+.promo h3 {
     color: var(--midgrey);
     font-size: 1.4rem;
     font-weight: 600;
     text-transform: uppercase;
 }
 
-.leadership-experience img {
+.promo img {
     border-radius: 5px;
     padding: 10px 0;
 }
 
+.promo-bg {
+    margin-left: -15px;
+    margin-right: -15px;
+    padding: 15px;
+
+    background-color: #f6f6f6;
+    border-radius: 5px;
+}
+
+.cta-container {
+    text-align: center;
+}
+
+a.cta {
+    border-width: 0px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: #569cbf;
+    color: #FFFFFF;
+    border-color: #ccc;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    cursor: pointer;
+}
 
 
 /* 7.1. Subscribe Form
