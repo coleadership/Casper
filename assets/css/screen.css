@@ -1334,6 +1334,26 @@ a.cta {
     max-width: 840px;
 }
 
+/* 7.2.a Post Header Author
+/* ---------------------------------------------------------- */
+
+.post-full-header-author {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 2vw 0 0;
+    max-width: 840px;
+}
+
+.post-full-header-author {
+    text-align: left;
+}
+
+.post-full-header-author .post-full-footer-right {
+    display: none;
+}
+
 /* 7.2.1 Single Author Byline
 /* ---------------------------------------------------------- */
 
@@ -1425,7 +1445,7 @@ a.cta {
     text-transform: uppercase;
 }
 
-.post-full-footer .author-list {
+.post-full-footer .author-list, .post-full-header-author .author-list {
     justify-content: center;
     padding: 10px 20px;
 }
