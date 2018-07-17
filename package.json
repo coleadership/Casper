@@ -1,8 +1,8 @@
 {
-    "name": "casper-coleadership",
+    "name": "casper-coleadership-20180716",
     "description": "The default personal blogging theme for Ghost. Beautiful, minimal and responsive.",
     "demo": "https://demo.ghost.io",
-    "version": "2.2.1-20180523",
+    "version": "2.2.1-20180716",
     "engines": {
         "ghost": ">=1.2.0"
     },
