@@ -1203,6 +1203,43 @@ a.cta {
     cursor: pointer;
 }
 
+.co-cta {
+  background-color: #f6f6f6;
+  padding: 20px;
+  border-radius: 5px;
+  line-height: 28px;
+  font-size: 83%;
+  font-family: -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.co-cta h3.co-headline {
+  margin: 0 0 0.5em;
+  line-height: 36px;
+}
+
+.co-cta img {
+  width: 200px;
+  margin-right: 5px;
+  float: left;
+}
+
+.co-cta .co-cta-button-container {
+  text-align: center;
+}
+
+.co-cta a.co-cta-button {
+  border-width: 0px;
+  border-radius: 5px;
+  padding: 10px 20px;
+  background-color: #569cbf;
+  color: #FFFFFF;
+  border-color: #ccc;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+}
+
 
 /* 7.1. Subscribe Form
 /* ---------------------------------------------------------- */

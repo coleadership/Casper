@@ -51,7 +51,9 @@ into the {body} of the default.hbs template --}}
             </section>
 
             <section class="post-full-content">
-                {{content}}
+              {{content}}
+
+              {{> "post-bottom-cta-section" }}
             </section>
 
             {{!-- Email subscribe form at the bottom of the page --}}
